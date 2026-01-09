@@ -1,4 +1,3 @@
-// lib/features/auth/presentation/controllers/login_controller.dart
 import 'package:codeedex_task/services/auth_service.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +16,6 @@ class LoginController extends ChangeNotifier {
   bool _obscurePassword = true;
   bool get obscurePassword => _obscurePassword;
 
-  // Add fields for id and token
   String? id;
   String? token;
 
@@ -38,7 +36,6 @@ class LoginController extends ChangeNotifier {
       );
 
       if (response.success && response.customerData != null) {
-        // Store id and token
         id = response.customerData!.id;
         token = response.customerData!.token;
 

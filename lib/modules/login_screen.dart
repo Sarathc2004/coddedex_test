@@ -17,7 +17,6 @@ class LoginScreen extends StatelessWidget {
             backgroundColor: Colors.white,
             body: Column(
               children: [
-                // Top image section (same as before)
                 Stack(
                   children: [
                     Image.asset(

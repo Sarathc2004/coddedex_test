@@ -4,7 +4,6 @@ import 'package:codeedex_task/models/login_model.dart';
 import 'package:codeedex_task/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-// if you have constants file
 
 class AuthService {
   Future<LoginResponse> login({
