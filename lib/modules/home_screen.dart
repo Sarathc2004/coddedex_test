@@ -44,7 +44,11 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.orange.shade200,
               ),
               padding: const EdgeInsets.all(16),
-              child: Image.asset('assets/images/iPhone 16 - 2.png', height: 90),
+              child: Image.asset(
+                'assets/images/iPhone 16 - 2.png',
+                height: 150,
+                width: MediaQuery.of(context).size.width,
+              ),
             ),
 
             const SizedBox(height: 20),
